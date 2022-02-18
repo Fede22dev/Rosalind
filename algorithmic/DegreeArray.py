@@ -1,6 +1,4 @@
-import time
-
-f = open("C:/Users/Fede/Downloads/rosalind_deg.txt", "r")
+f = open("C:/Users/Fede/Downloads/rosalind_deg_2_dataset.txt", "r")
 # lista di tutti i collegamenti
 listEdge = []
 for line in f:
@@ -25,9 +23,6 @@ for edge in listEdge:
 
     listDegreeVertex[first] += 1
     listDegreeVertex[second] += 1
-
-    print(listDegreeVertex)
-    time.sleep(0.75)
 
 result = ""
 for degree in listDegreeVertex:

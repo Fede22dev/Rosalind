@@ -1,6 +1,6 @@
 def hamming_distance(dna_1, dna_2):
     count = 0
-    for i in range(0, len(dna_1)):
+    for i in range(len(dna_1)):
         if dna_1[i] != dna_2[i]:
             count += 1
     return count
