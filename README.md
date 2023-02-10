@@ -1,3 +1,3 @@
 # Rosalind
 
-My solutions of [Rosalind](https://rosalind.info/problems/list-view/) problems.
+My solutions of some [Rosalind](https://rosalind.info/problems/list-view/) problems.
